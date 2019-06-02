@@ -36,7 +36,7 @@ with open ("C:\\Distrib\\Python\\files\\logStatic.txt", "w") as a:
 
 '''
 import pathlib
-path = pathlib.Path('C:/') / 'Distrib' / 'Python' / 'files'
+path = pathlib.Path('C:/' / 'Distrib' / 'Python' / 'files')
 a = pathlib.Path("logStatic.txt", "r") # open('logStatic.txt')
 '''
 
